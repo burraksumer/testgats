@@ -97,9 +97,9 @@ const About = ({ bio, socialLinks }) => (
             {RichText.render(bio)}
         </AboutBio>
         <AboutActions>
-            <a href="mailto:marguerite.roth@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:me@buraksumer.com" target="_blank" rel="noopener noreferrer">
                 <Button className="Button--secondary">
-                    Email me
+                    Bir selam çak!
                 </Button>
             </a>
         </AboutActions>

@@ -139,9 +139,11 @@ const RenderBody = ({ home, projects, meta }) => (
             </>
             <a href={home.hero_button_link.url}
                target="_blank" rel="noopener noreferrer">
+                {/*
                 <Button>
                     {RichText.render(home.hero_button_text)}
                 </Button>
+                */}   
             </a>
         </Hero>
         <Section>
@@ -156,7 +158,7 @@ const RenderBody = ({ home, projects, meta }) => (
                 />
             ))}
             <WorkAction to={"/work"}>
-                See more work <span>&#8594;</span>
+                Diğer işlerimi gör <span>&#8594;</span>
             </WorkAction>
         </Section>
         <Section>

@@ -97,14 +97,14 @@ const PostCard = ({ author, category, date, title, description, uid}) => (
             {RichText.render(description)}
         </PostDescription>
         <PostCardAction className="PostCardAction">
-            Read more <span>&#8594;</span>
+            Devamını oku <span>&#8594;</span>
         </PostCardAction>
         <PostMetas>
             <PostAuthor>
                 {author}
             </PostAuthor>
             <PostDate>
-                <Moment format="MMMM D, YYYY">{date}</Moment>
+                <Moment format="DD, MM, YYYY">{date}</Moment>
             </PostDate>
         </PostMetas>
     </PostCardContainer>

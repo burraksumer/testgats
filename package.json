@@ -1,12 +1,13 @@
 {
-  "name": "gatsby-prismic-starter-prist",
+  "name": "website",
   "private": true,
-  "description": "A starter powered by Gatsby and Prismic to showcase portfolios and blogs.",
-  "version": "0.1.0",
-  "author": "Marguerite Roth | marguerite.io | marguerite.roth@gmail.com",
+  "description": "Izmıt based student, wannabe programmer, poet.",
+  "version": "",
+  "author": "Burak Sümer - me@buraksumer.com",
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
+    "a11y-react-emoji": "^1.1.1",
     "gatsby": "^2.12.0",
     "gatsby-image": "^2.1.2",
     "gatsby-plugin-catch-links": "^2.0.12",
@@ -20,6 +21,7 @@
     "gatsby-plugin-sharp": "^2.1.3",
     "gatsby-source-filesystem": "^2.0.38",
     "gatsby-source-prismic-graphql": "3.4.0-beta.1",
+    "gatsby-transformer-remark": "^2.6.30",
     "gatsby-transformer-sharp": "^2.1.21",
     "node-sass": "^4.12.0",
     "prismic-reactjs": "^0.3.2",
@@ -38,12 +40,13 @@
   },
   "devDependencies": {
     "gatsby-plugin-remove-trailing-slashes": "^2.0.11",
+    "gh-pages": "^2.1.1",
     "prettier": "^1.17.1"
   },
   "keywords": [
-    "gatsby",
-    "prismic",
     "blog",
+    "poet",
+    "programmer",
     "portfolio"
   ],
   "license": "MIT",
@@ -53,11 +56,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/margueriteroth/gatsby-prismic-starter-prist"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

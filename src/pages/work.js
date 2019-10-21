@@ -13,8 +13,8 @@ const WorkTitle = styled("h1")`
 const Work = ({ projects, meta }) => (
     <>
         <Helmet
-            title={`Work | Prist, Gatsby & Prismic Starter`}
-            titleTemplate={`%s | Work | Prist, Gatsby & Prismic Starter`}
+            title={`İşlerim | Burak Sümer`}
+            titleTemplate={`%s | İşlerim | Burak Sümer`}
             meta={[
                 {
                     name: `description`,
@@ -22,7 +22,7 @@ const Work = ({ projects, meta }) => (
                 },
                 {
                     property: `og:title`,
-                    content: `Work | Prist, Gatsby & Prismic Starter`,
+                    content: `İşlerim | Burak Sümer`,
                 },
                 {
                     property: `og:description`,
@@ -52,7 +52,7 @@ const Work = ({ projects, meta }) => (
         />
         <Layout>
             <WorkTitle>
-                Work
+                İşlerim
             </WorkTitle>
             <>
                 {projects.map((project, i) => (

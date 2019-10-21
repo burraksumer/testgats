@@ -96,7 +96,7 @@ const Post = ({ post, meta }) => {
     return (
         <>
             <Helmet
-                title={`${post.post_title[0].text} | Prist, Gatsby & Prismic Starter`}
+                title={`${post.post_title[0].text} | Burak Sümer`}
                 titleTemplate={`%s | ${meta.title}`}
                 meta={[
                     {
@@ -105,7 +105,7 @@ const Post = ({ post, meta }) => {
                     },
                     {
                         property: `og:title`,
-                        content: `${post.post_title[0].text} | Prist, Gatsby & Prismic Starter`,
+                        content: `${post.post_title[0].text} | Burak Sümer`,
                     },
                     {
                         property: `og:description`,
@@ -150,7 +150,7 @@ const Post = ({ post, meta }) => {
                 </PostMetas>
                     {post.post_hero_image && (
                     <PostHeroContainer>
-                        <img src={post.post_hero_image.url} alt="bees" />
+                        <img src={post.post_hero_image.url} alt="" />
                         <PostHeroAnnotation>
                             {RichText.render(post.post_hero_annotation)}
                         </PostHeroAnnotation>

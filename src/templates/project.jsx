@@ -54,7 +54,7 @@ const Project = ({ project, meta }) => {
     return (
         <>
             <Helmet
-                title={`${project.project_title[0].text} | Prist, Gatsby & Prismic Starter`}
+                title={`${project.project_title[0].text} | Burak Sümer`}
                 titleTemplate={`%s | ${meta.title}`}
                 meta={[
                     {
@@ -63,7 +63,7 @@ const Project = ({ project, meta }) => {
                     },
                     {
                         property: `og:title`,
-                        content: `${project.project_title[0].text} | Prist, Gatsby & Prismic Starter`,
+                        content: `${project.project_title[0].text} | Burak Sümer`,
                     },
                     {
                         property: `og:description`,
@@ -97,14 +97,14 @@ const Project = ({ project, meta }) => {
                 </ProjectTitle>
                 {project.project_hero_image && (
                     <ProjectHeroContainer>
-                        <img src={project.project_hero_image.url} alt="bees" />
+                        <img src={project.project_hero_image.url} alt="Burak Sümer" />
                     </ProjectHeroContainer>
                 )}
                 <ProjectBody>
                     {RichText.render(project.project_description)}
                     <WorkLink to={"/work"}>
                         <Button className="Button--secondary">
-                            See other work
+                            Diğer işlerimi gör
                         </Button>
                     </WorkLink>
                 </ProjectBody>

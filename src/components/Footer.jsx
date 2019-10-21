@@ -2,8 +2,14 @@ import React from "react";
 import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import colors from "styles/colors";
-import Logo from "components/_ui/Logo";
-import spooch from "images/oscar-icon.png"
+import LogoFoot from "components/_ui/LogoFoot";
+import spooch from "images/burki-icon.png"
+
+let styles1 = {
+    textDecoration:"None",
+    fontSize:"1em"
+  };
+
 
 const FooterContainer = styled("div")`
     padding-top: 3.75em;
@@ -50,11 +56,11 @@ const FooterSpooch = styled("img")`
 
 const Footer = () => (
     <FooterContainer>
-        <Link to="/">
-            <Logo />
+        <Link style={styles1} to="/">
+            <LogoFoot />
         </Link>
-        <FooterAuthor href="https://marguerite.io">
-            © 2019 — Designed & developed by Marguerite Roth
+        <FooterAuthor href="https://buraksumer.com">
+            <p>Designed & developed with <span role="img" aria-label="hidden">&#x1F497;</span></p>
             <FooterSpooch className="FooterSpooch" src={spooch} />
         </FooterAuthor>
     </FooterContainer>
