@@ -112,12 +112,16 @@ const Post = ({ post, meta }) => {
                         content: meta.description,
                     },
                     {
+                        name: `lang`,
+                        content: meta.lang,
+                    },
+                    {
                         property: `og:type`,
                         content: `website`,
                     },
                     {
                         name: `twitter:card`,
-                        content: `summary`,
+                        content: `Izmıt based student, wannabe programmer, poet.`,
                     },
                     {
                         name: `twitter:creator`,
@@ -203,6 +207,7 @@ export const query = graphql`
                 title
                 description
                 author
+                lang
             }
         }
     }

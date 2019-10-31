@@ -62,6 +62,10 @@ const Project = ({ project, meta }) => {
                         content: meta.description,
                     },
                     {
+                        name: `lang`,
+                        content: meta.lang,
+                    },
+                    {
                         property: `og:title`,
                         content: `${project.project_title[0].text} | Burak Sümer`,
                     },
@@ -75,7 +79,7 @@ const Project = ({ project, meta }) => {
                     },
                     {
                         name: `twitter:card`,
-                        content: `summary`,
+                        content: `Izmıt based student, wannabe programmer, poet.`,
                     },
                     {
                         name: `twitter:creator`,
@@ -150,6 +154,7 @@ export const query = graphql`
                 title
                 description
                 author
+                lang
             }
         }
     }

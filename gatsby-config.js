@@ -4,6 +4,7 @@ module.exports = {
         description: `Izmıt based student, wannabe programmer, poet.`,
         keywords:`Istanbul, Kocaeli, Turkey, student, blog, programmer, poet, poem, prose.`,
     author: `Burak Sümer`,
+    lang: `tr`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -47,7 +48,7 @@ module.exports = {
     {
         resolve: `gatsby-plugin-google-analytics`,
         options: {
-            trackingId: "",
+            trackingId: "UA-55406295-1",
             head: true,
         },
     },

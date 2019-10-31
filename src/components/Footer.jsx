@@ -61,7 +61,7 @@ const Footer = () => (
         </Link>
         <FooterAuthor href="https://buraksumer.com">
             <p>Designed & developed with <span role="img" aria-label="hidden">&#x1F497;</span></p>
-            <FooterSpooch className="FooterSpooch" src={spooch} />
+            <FooterSpooch className="FooterSpooch" alt="a spinning head of burki" src={spooch} />
         </FooterAuthor>
     </FooterContainer>
 )
