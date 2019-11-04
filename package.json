@@ -10,6 +10,7 @@
     "a11y-react-emoji": "^1.1.1",
     "gatsby": "^2.12.0",
     "gatsby-image": "^2.1.2",
+    "gatsby-plugin-advanced-sitemap": "^1.4.5",
     "gatsby-plugin-catch-links": "^2.0.12",
     "gatsby-plugin-emotion": "^4.1.0",
     "gatsby-plugin-google-analytics": "^2.1.6",

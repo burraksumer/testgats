@@ -4,6 +4,7 @@ module.exports = {
         description: `Izmıt based student, wannabe programmer, poet.`,
         keywords:`Istanbul, Kocaeli, Turkey, student, blog, programmer, poet, poem, prose.`,
     author: `Burak Sümer`,
+    siteUrl: `https://buraksumer.com`,
     lang: `tr`,
   },
   plugins: [
@@ -15,6 +16,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-resolve-src`,
     `gatsby-plugin-remove-trailing-slashes`,
+    `gatsby-plugin-advanced-sitemap`,
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -36,7 +38,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Burak Sümer`,
-        short_name: `buraksumer`,
+        short_name: `Burki`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
