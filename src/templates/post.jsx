@@ -121,7 +121,7 @@ const Post = ({ post, meta }) => {
                     },
                     {
                         name: `twitter:card`,
-                        content: `Izmıt based student, wannabe programmer, poet.`,
+                        content: `Turkey based freelancer, web developer.`,
                     },
                     {
                         name: `twitter:creator`,

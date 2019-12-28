@@ -141,7 +141,7 @@ const Header = () => (
                 <Link
                     activeClassName="Link--is-active"
                     to="/work">
-                    İşlerim
+                    Work
                 </Link>
                 <Link
                     activeClassName="Link--is-active"

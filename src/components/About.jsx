@@ -93,13 +93,18 @@ const About = ({ bio, socialLinks }) => (
                 </AboutLink>
             ))}
         </AboutLinkContainer>
-        <AboutBio>
-            {RichText.render(bio)}
+        <AboutBio id= "about">
+            {/* {RichText.render(bio)} */}
+            <p>I'm a freenlancer with two years of experience and I love to help people and solve their problems.</p>
+            <p>I mostly create identification cards for brands, brands themselves and websites.</p>
+            <h3>Contact me, but easier</h3>
+            <p>Whatsapp, Telegram or SMS me: <a className="css-1549vj6-AboutLink e1mzcxc62" href= "tel: 0 538 8323508">+90 538 832 3508</a></p>
+            <p>E-Mail me: <a className="css-1549vj6-AboutLink e1mzcxc62" href="mailto: me@buraksumer.com">me@buraksumer.com</a></p>
         </AboutBio>
         <AboutActions>
             <a href="mailto:me@buraksumer.com" target="_blank" rel="noopener noreferrer">
                 <Button className="Button--secondary">
-                    Bir selam çak!
+                    Contact me!
                 </Button>
             </a>
         </AboutActions>

@@ -97,7 +97,7 @@ const PostCard = ({ author, category, date, title, description, uid}) => (
             {RichText.render(description)}
         </PostDescription>
         <PostCardAction className="PostCardAction">
-            Devamını oku <span>&#8594;</span>
+            Read more <span>&#8594;</span>
         </PostCardAction>
         <PostMetas>
             <PostAuthor>

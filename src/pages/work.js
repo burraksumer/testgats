@@ -38,7 +38,7 @@ const Work = ({ projects, meta }) => (
                 },
                 {
                     name: `twitter:card`,
-                    content: `Izmıt based student, wannabe programmer, poet.`,
+                    content: `Turkey based freelancer, web developer.`,
                 },
                 {
                     name: `twitter:creator`,
@@ -56,7 +56,7 @@ const Work = ({ projects, meta }) => (
         />
         <Layout>
             <WorkTitle>
-                İşlerim
+                Work
             </WorkTitle>
             <>
                 {projects.map((project, i) => (

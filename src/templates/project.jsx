@@ -79,7 +79,7 @@ const Project = ({ project, meta }) => {
                     },
                     {
                         name: `twitter:card`,
-                        content: `Izmıt based student, wannabe programmer, poet.`,
+                        content: `Turkey based freelancer, web developer.`,
                     },
                     {
                         name: `twitter:creator`,
@@ -108,7 +108,7 @@ const Project = ({ project, meta }) => {
                     {RichText.render(project.project_description)}
                     <WorkLink to={"/work"}>
                         <Button className="Button--secondary">
-                            Diğer işlerimi gör
+                            See my other work
                         </Button>
                     </WorkLink>
                 </ProjectBody>

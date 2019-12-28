@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Burak Sümer`,
-        description: `Izmıt based student, wannabe programmer, poet.`,
-        keywords:`Istanbul, Kocaeli, Turkey, student, blog, programmer, poet, poem, prose.`,
+        description: `Turkey based freelancer, web developer.`,
+        keywords:`Freelancer, Istanbul, Kocaeli, Turkey, student, blog, programmer, poet, poem, prose.`,
     author: `Burak Sümer`,
     siteUrl: `https://buraksumer.com`,
-    lang: `tr`,
+    lang: `en`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

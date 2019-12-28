@@ -121,7 +121,7 @@ const RenderBody = ({ home, projects, meta }) => (
                 },
                 {
                     name: `twitter:card`,
-                    content: `Izmıt based student, wannabe programmer, poet.`,
+                    content: `Turkey based freelancer, web developer.`,
                 },
                 {
                     name: `twitter:creator`,
@@ -141,13 +141,12 @@ const RenderBody = ({ home, projects, meta }) => (
             <>
                 {RichText.render(home.hero_title)}
             </>
-            <a href={home.hero_button_link.url}
-               target="_blank" rel="noopener noreferrer">
-                {/*
+            <a href={home.hero_button_link.url}>
+                {
                 <Button>
                     {RichText.render(home.hero_button_text)}
                 </Button>
-                */}   
+                }   
             </a>
         </Hero>
         <Section>
@@ -162,7 +161,7 @@ const RenderBody = ({ home, projects, meta }) => (
                 />
             ))}
             <WorkAction to={"/work"}>
-                Diğer işlerimi gör <span>&#8594;</span>
+                See my other <span>&#8594;</span>
             </WorkAction>
         </Section>
         <Section>
