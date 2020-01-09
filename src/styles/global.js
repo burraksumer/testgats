@@ -10,6 +10,7 @@ const globalStyles = css`
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         min-height: 100%;
+        scroll-behavior: smooth;
     }
 
     body {
