@@ -3,8 +3,7 @@ layout: "../../layouts/BlogPostLayout.astro"
 title: "Letter 2: Awakening"
 date: 2022-03-03
 author: Burak Sümer
-image:
-  { src: "/public/images/lettersOfBarb.jpg", alt: "Letters of Barbara image" }
+image: { src: "/images/lettersOfBarb.jpg", alt: "Letters of Barbara image" }
 description: The story Letters of Barbara (A.I.) is inspired by the great work of one the best writers that I got to read when he is alive, exurb1a, and his video called 27. Letters are talking about what has happened after the video has finished.
 draft: false
 category: Letters of Barbara (A.I.)

@@ -28,9 +28,5 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9"
-  },
-  "engines": {
-    "node": "v19.4.0",
-    "npm": "9.3.1"
   }
 }
