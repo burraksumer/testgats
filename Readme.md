@@ -10,7 +10,7 @@
     Personal website redesigned to run on the edge. Serverless.
     <br/>
     <br/>
-    <a href="https://github.com/burraksumer/burakMulayim">View Demo</a>
+    <a href="https://burak.mulayim.app">View Demo</a>
     .
     <a href="https://github.com/burraksumer/burakMulayim/issues">Report Bug</a>
     .
@@ -18,7 +18,7 @@
   </p>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/burraksumer/burakMulayim?color=dark-green) ![Issues](https://img.shields.io/github/issues/burraksumer/burakMulayim) ![License](https://img.shields.io/badge/Lisence-WTFPL-green)
+![Contributors](https://img.shields.io/github/contributors/burraksumer/burakMulayim?color=dark-green) ![Issues](https://img.shields.io/github/issues/burraksumer/burakMulayim) ![License](https://img.shields.io/badge/Lisence-WTFPL-success)
 
 ## About The Project
 
