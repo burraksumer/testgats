@@ -12,11 +12,11 @@ import { Icon } from "astro-icon";
     <div class="sm:flex sm:items-center sm:justify-between">
       <div class="flex justify-center sm:justify-start">
         <!-- * Add wallets here probably. -->
-        <!-- <a href="/" class=""></a> -->
+        <div id="wcb" class="carbonbadge wcb-d">&#8205;</div>
       </div>
 
       <p
-        class="mt-4 text-sm text-center text-gray-500 dark:text-gray-200 lg:mt-0 lg:text-center"
+        class="text-sm text-center text-gray-500 dark:text-gray-200 lg:mt-0 lg:text-center"
       >
         &copy; <span id="copyright"></span><a
           href="http://www.wtfpl.net/"
@@ -26,7 +26,7 @@ import { Icon } from "astro-icon";
         >
       </p>
       <p
-        class="mt-4 text-sm text-center text-gray-500 dark:text-gray-200 lg:mt-0 lg:text-right"
+        class="text-sm text-center text-gray-500 dark:text-gray-200 lg:mt-0 lg:text-right"
       >
         <a href="/rss.xml" target="_blank">
           RSS Feed
@@ -42,3 +42,6 @@ import { Icon } from "astro-icon";
     .getFullYear()
     .toString();
 </script>
+
+<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer
+></script>
