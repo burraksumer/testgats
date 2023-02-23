@@ -3,9 +3,6 @@ module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
-      fontFamily: {
-        inter: ["Inter", "sans-serif"],
-      },
       keyframes: {
         wave: {
           "0%": { transform: "rotate(0.0deg)" },
