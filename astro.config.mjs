@@ -13,7 +13,7 @@ import sitemap from "@astrojs/sitemap";
 // import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
-import prefetch from "@astrojs/prefetch";
+// import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
 import robotsTxt from "astro-robots-txt";
@@ -27,7 +27,7 @@ export default defineConfig({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
     sitemap(),
-    prefetch(),
+    // prefetch(),
     robotsTxt(),
   ],
 });
