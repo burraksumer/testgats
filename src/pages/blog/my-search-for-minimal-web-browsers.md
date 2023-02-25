@@ -3,7 +3,7 @@ layout: "../../layouts/BlogPostLayout.astro"
 title: My search for minimal web browsers
 date: 2022-03-02
 author: Burak Sümer
-image: { src: "/images/minimalWebBrowser.jpg", alt: "Desk with keyboard" }
+image: { src: "/images/minimalWebBrowser.webp", alt: "Desk with keyboard" }
 description: This blog post discusses the Burak's search for a minimalistic web browser, and their experiences trying various browsers including Firefox, Ungoogled Chromium, Surf, and qutebrowser. The author invites readers to contact them with suggestions for alternative browsers that meet their needs.
 draft: false
 category: Web Browsers
