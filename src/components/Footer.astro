@@ -80,7 +80,7 @@ import { Icon } from "astro-icon";
     let carbonPercent = document.getElementById("carbonPercent");
     let carbonGram = document.getElementById("carbonGram");
 
-    carbonPercent.innerHTML = data.cleanerThan;
+    carbonPercent.innerHTML = (data.cleanerThan * 100).toString();
     carbonGram.innerHTML = data.statistics.co2.grid.grams.toFixed(2);
   }
 
