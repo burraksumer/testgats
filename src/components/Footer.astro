@@ -12,12 +12,7 @@ import { Icon } from "astro-icon";
     <div class="sm:flex sm:items-center sm:justify-between">
       <div class="flex justify-center sm:justify-start">
         <!-- * Add wallets here probably. -->
-        <div
-          id="wcb"
-          class="carbonbadge wcb-d text-sm text-center text-gray-500 dark:text-gray-200 lg:mt-0 lg:text-center"
-        >
-          &#8205;
-        </div>
+        <div id="wcb" class="carbonbadge wcb-d">&#8205;</div>
       </div>
 
       <p
@@ -47,3 +42,7 @@ import { Icon } from "astro-icon";
 
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer
 ></script>
+
+<script>
+  document.getElementById("#wcb_2").classList.add("text-gray-500");
+</script>
