@@ -10,13 +10,31 @@ import { Icon } from "astro-icon";
 >
   <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
     <div class="sm:flex sm:items-center sm:justify-between">
-      <div class="flex justify-center sm:justify-start">
+      <div class="flex justify-center sm:justify-start my-5">
         <!-- * Add wallets here probably. -->
-        <div id="wcb" class="carbonbadge wcb-d">&#8205;</div>
+        <div id="carbon">
+          <a
+            href="https://www.websitecarbon.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="px-2 py-2 font-semibold bg-[#c8e6c9] text-gray-700">
+              <span id="carbonGram"></span>g of CO<sub>2</sub>/view
+            </span>
+            <span class="px-2 py-2 font-bold bg-[#4caf50] text-black">
+              WEBSITE CARBON
+            </span>
+            <br />
+            <p class="text-center my-2 text-gray-600 dark:text-gray-300">
+              Cleaner than <span id="carbonPercent"></span>% of the pages
+              tested.
+            </p>
+          </a>
+        </div>
       </div>
 
       <p
-        class="text-sm text-center text-gray-500 dark:text-gray-200 lg:mt-0 lg:text-center"
+        class="text-sm text-center text-gray-600 dark:text-gray-200 lg:mt-0 lg:text-center"
       >
         &copy; <span id="copyright"></span><a
           href="http://www.wtfpl.net/"
@@ -26,8 +44,17 @@ import { Icon } from "astro-icon";
         >
       </p>
       <div class="flex justify-center sm:justify-start my-6">
-        <a href="https://512kb.club" target="_blank"
-          ><img src="https://512kb.club/assets/images/green-team.svg" /></a
+        <a href="https://512kb.club" target="_blank" rel="noopener noreferrer"
+          ><div id="carbon">
+            <span
+              class="px-2 py-2 font-semibold bg-[#c8e6c9] dark:text-gray-700"
+            >
+              512KB CLUB
+            </span>
+            <span class="px-2 py-2 font-bold bg-[#4caf50] text-black">
+              GREEN TEAM
+            </span>
+          </div></a
         >
       </div>
     </div>
@@ -38,7 +65,19 @@ import { Icon } from "astro-icon";
   document.querySelector("#copyright").textContent = new Date()
     .getFullYear()
     .toString();
-</script>
 
-<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer
-></script>
+  async function fetchCarbon() {
+    let response = await fetch(
+      "https://api.websitecarbon.com/site?url=https://burak.mulayim.app"
+    );
+
+    let data = await response.json();
+    let carbonPercent = document.getElementById("carbonPercent");
+    let carbonGram = document.getElementById("carbonGram");
+
+    carbonPercent.innerHTML = data.cleanerThan;
+    carbonGram.innerHTML = data.statistics.co2.grid.grams;
+  }
+
+  fetchCarbon();
+</script>
