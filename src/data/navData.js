@@ -12,8 +12,8 @@ const navData = [
     path: "/blog/",
   },
   {
-    name: "Letters of Barbara (A.I.)",
-    path: "/blog/letter-1/",
+    name: "RSS",
+    path: "/rss.xml",
   },
 ];
 
