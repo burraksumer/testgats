@@ -38,11 +38,9 @@ import { Icon } from "astro-icon";
   document.querySelector("#copyright").textContent = new Date()
     .getFullYear()
     .toString();
+
+  document.getElementById("#wcb_2").classList.add("text-gray-500");
 </script>
 
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer
 ></script>
-
-<script>
-  document.getElementById("#wcb_2").classList.add("text-gray-500");
-</script>
