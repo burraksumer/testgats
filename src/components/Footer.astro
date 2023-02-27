@@ -11,8 +11,24 @@ import { Icon } from "astro-icon";
   <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
     <div class="sm:flex sm:items-center sm:justify-between">
       <div class="flex justify-center sm:justify-start my-5">
-        <!-- * Add wallets here probably. -->
-        <div id="carbon">
+        <div>
+          <a
+            href="https://512kb.club"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="my-6 inline-block"
+            ><div>
+              <span
+                class="px-2 py-2 font-semibold bg-[#c8e6c9] dark:text-gray-700"
+              >
+                512KB CLUB
+              </span>
+              <span class="px-2 py-2 font-bold bg-[#4caf50] text-black">
+                GREEN TEAM
+              </span>
+            </div></a
+          >
+          <br />
           <a
             href="https://www.websitecarbon.com/"
             target="_blank"
@@ -25,7 +41,7 @@ import { Icon } from "astro-icon";
               WEBSITE CARBON
             </span>
             <br />
-            <p class="text-center my-2 text-gray-600 dark:text-gray-300">
+            <p class="my-2 text-gray-600 dark:text-gray-300">
               Cleaner than <span id="carbonPercent"></span>% of the pages
               tested.
             </p>
@@ -43,20 +59,11 @@ import { Icon } from "astro-icon";
           WTFPL.</a
         >
       </p>
-      <div class="flex justify-center sm:justify-start my-6">
-        <a href="https://512kb.club" target="_blank" rel="noopener noreferrer"
-          ><div id="carbon">
-            <span
-              class="px-2 py-2 font-semibold bg-[#c8e6c9] dark:text-gray-700"
-            >
-              512KB CLUB
-            </span>
-            <span class="px-2 py-2 font-bold bg-[#4caf50] text-black">
-              GREEN TEAM
-            </span>
-          </div></a
-        >
-      </div>
+      <!-- ! RSS GOES HERE -->
+      <!-- * Add wallets here probably. -->
+      <!--       <div class="flex justify-center sm:justify-start my-8">
+
+      </div> -->
     </div>
   </div>
 </footer>
@@ -67,16 +74,14 @@ import { Icon } from "astro-icon";
     .toString();
 
   async function fetchCarbon() {
-    let response = await fetch(
-      "https://api.websitecarbon.com/site?url=https://burak.mulayim.app"
-    );
+    let response = await fetch("https://api.mulayim.app/carbon");
 
     let data = await response.json();
     let carbonPercent = document.getElementById("carbonPercent");
     let carbonGram = document.getElementById("carbonGram");
 
     carbonPercent.innerHTML = data.cleanerThan;
-    carbonGram.innerHTML = data.statistics.co2.grid.grams;
+    carbonGram.innerHTML = data.statistics.co2.grid.grams.toFixed(2);
   }
 
   fetchCarbon();

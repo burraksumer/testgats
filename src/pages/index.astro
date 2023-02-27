@@ -214,7 +214,7 @@ import MainLayout from "../layouts/MainLayout.astro";
 
 <script>
   async function fetchMusic() {
-    let response = await fetch("https://api.mulayim.app/");
+    let response = await fetch("https://api.mulayim.app/lastfm");
 
     let data = await response.json();
     let songName = document.getElementById("songName");
