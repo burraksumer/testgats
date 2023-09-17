@@ -1,6 +1,6 @@
 ---
 // component imports
-import { Image } from "@astrojs/image/components";
+import { Image } from 'astro:assets'
 import { Icon } from "astro-icon";
 
 // layout imports
@@ -43,11 +43,11 @@ import MainLayout from "../layouts/MainLayout.astro";
                 <p
                   class="my-2 text-center text-lg text-gray-600 dark:text-gray-300"
                 >
-                  <span class="">Last played:</span>
+                  <span class="">Last played: </span>
                   <span class="font-semibold" id="songName"
                     >Default song title</span
                   >
-                  <span class="">by</span>
+                  <span class=""> by </span>
                   <br class="hidden" />
                   <span class="font-semibold" id="artistName"
                     >Default artist name</span
