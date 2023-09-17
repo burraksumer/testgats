@@ -18,7 +18,7 @@
   </p>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/burraksumer/burakMulayim?color=dark-green) ![Issues](https://img.shields.io/github/issues/burraksumer/burakMulayim) ![License](https://img.shields.io/badge/Lisence-WTFPL-success)
+![Contributors](https://img.shields.io/github/contributors/burraksumer/burakMulayim?color=dark-green) ![Issues](https://img.shields.io/github/issues/burraksumer/burakMulayim) ![License](https://img.shields.io/badge/Lisence-WTFPL-success) [![Netlify Status](https://api.netlify.com/api/v1/badges/d5143828-6929-4cde-b6ed-9448650c2257/deploy-status)](https://app.netlify.com/sites/burakmulayim/deploys)
 
 ## About The Project
 
@@ -37,7 +37,8 @@ I hope you enjoy exploring my personal website and learn more about me and my wo
 - [Astro](https://astro.build)
 - [TailwindCSS](https://tailwindcss.com/)
 - [Cloudflare Workers](https://workers.cloudflare.com/)
-- [Cloudflare Pages](https://pages.dev/)
+- [Netlify](https://netlify.com)
+- ~~[Cloudflare Pages](https://pages.dev/)~~
 
 ## Getting Started
 
