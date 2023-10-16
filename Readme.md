@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/burraksumer/burakMulayim">
-    <img src="https://raw.githubusercontent.com/burraksumer/burakMulayim/master/public/favicon.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/burraksumer/burakMulayim/master/static/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">burakMulayim Website</h3>
@@ -22,7 +22,7 @@
 
 ## About The Project
 
-![Screen Shot](https://raw.githubusercontent.com/burraksumer/burakMulayim/master/public/websiteScreenshot.png)
+![Screen Shot](https://raw.githubusercontent.com/burraksumer/burakMulayim/master/static/websiteScreenshot.png)
 
 This website is a showcase of my passion for technology. It was built with Astro, a fast and simple static site generator, and TailwindCSS, a utility-first CSS framework.
 
