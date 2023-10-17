@@ -8,8 +8,10 @@
 	<MobileNav />
 	<div class="flex-rows flex">
 		<DesktopNav />
-		<div class="m-auto">
-			<slot />
+		<div class="flex-grow px-12 pt-36">
+			<div class="m-auto max-w-3xl">
+				<slot />
+			</div>
 		</div>
 	</div>
 </div>
