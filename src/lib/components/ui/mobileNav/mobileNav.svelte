@@ -13,19 +13,22 @@
 	//disable scroll when menu is open
 	function disableScroll() {
 		if (browser) {
-			scrollTop = window.document.documentElement.scrollTop;
-			(scrollLeft = window.document.documentElement.scrollLeft),
-				(window.onscroll = function () {
-					// @ts-ignore
-					window.scrollTo(scrollLeft, scrollTop);
-				});
+			// scrollTop = window.document.documentElement.scrollTop;
+			// (scrollLeft = window.document.documentElement.scrollLeft),
+			// 	(window.onscroll = function () {
+			// 		// @ts-ignore
+			// 		window.scrollTo(scrollLeft, scrollTop);
+			// 	});
+			let body = document.getElementsByTagName('body')[0];
+			body.style.overflow = 'hidden';
 		}
 	}
 
 	//enable scroll when menu is closed
 	function enableScroll() {
 		if (browser) {
-			window.onscroll = function () {};
+			let body = document.getElementsByTagName('body')[0];
+			body.style.overflow = 'visible';
 		}
 	}
 
@@ -64,7 +67,10 @@
 	</nav>
 
 	{#if menuOpen}
-		<div transition:slide class="h-screen items-center justify-center bg-background">
+		<div
+			transition:slide
+			class="h-screen items-center justify-center overflow-hidden overflow-y-scroll bg-background pb-36"
+		>
 			<AvatarWithText />
 			<NavButtons />
 		</div>

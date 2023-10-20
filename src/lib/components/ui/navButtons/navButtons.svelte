@@ -124,4 +124,161 @@
 		Resume
 		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
 	</Button>
+
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
+	<Button
+		href="https://burak.mulayim.app/cvBurakSumer.pdf"
+		target="_blank"
+		variant="ghost"
+		size="full"
+		class="mt-2 items-center gap-2 text-left"
+		rel="noreferrer"
+	>
+		<span class=""> <Icon name="file-text" /> </span>
+		Resume
+		<span class="ml-auto mr-0"> <Icon name="arrow-down" /> </span>
+	</Button>
 </div>
