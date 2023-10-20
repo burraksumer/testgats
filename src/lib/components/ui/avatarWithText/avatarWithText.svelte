@@ -1,12 +1,13 @@
 <script>
 	import * as Avatar from '$lib/components/ui/avatar';
 	import Button from '../button/button.svelte';
+	import Headshot from '$lib/assets/images/headshot.webp';
 </script>
 
 <Button size="hfull" variant="ghost" class="mb-6" href="/">
 	<div class="flex items-center">
 		<Avatar.Root>
-			<Avatar.Image src="/images/headshot.webp" alt="Burak Headshot" />
+			<Avatar.Image src={Headshot} alt="Burak Headshot" />
 			<Avatar.Fallback>BS</Avatar.Fallback>
 		</Avatar.Root>
 		<div class="ml-2">
