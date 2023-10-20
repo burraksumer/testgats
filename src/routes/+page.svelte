@@ -84,6 +84,8 @@
 				</div>
 			</div>
 		</Alert.Root>
+	{:catch error}
+		<p>something went wront {error.message}</p>
 	{/await}
 </div>
 <div class="min-h-screen">asd</div>
