@@ -79,6 +79,10 @@
 							<a target="_blank" href="https://www.websitecarbon.com/website/burak-mulayim-app/">
 								{carbon.statistics.co2.grid.grams.toFixed(3)}g of CO2/view</a
 							>
+						{:catch error}
+							<a target="_blank" href="https://www.websitecarbon.com/website/burak-mulayim-app/">
+								0.009g of CO2/view, this request failed {error.message}</a
+							>
 						{/await}
 					</Alert.Description>
 				</div>
