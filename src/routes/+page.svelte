@@ -18,7 +18,7 @@
 	advancements and tinkering with new tools.
 </p>
 <div class="mt-6 min-h-screen">
-	{#await data.streamed?.song}
+	{#await Promise.all([data.streamed?.song, data.streamed?.carbon])}
 		<!-- Song start -->
 		<Alert.Root>
 			<Icon name="disc" />
@@ -46,7 +46,7 @@
 				</div>
 			</div>
 		</Alert.Root>
-	{:then song}
+	{:then [song, carbon]}
 		<!-- Song start -->
 		<Alert.Root>
 			<Icon name="disc" />
@@ -75,15 +75,9 @@
 						</div>
 					</Alert.Title>
 					<Alert.Description>
-						{#await data.streamed?.carbon then carbon}
-							<a target="_blank" href="https://www.websitecarbon.com/website/burak-mulayim-app/">
-								{carbon.statistics.co2.grid.grams.toFixed(3)}g of CO2/view</a
-							>
-						{:catch error}
-							<a target="_blank" href="https://www.websitecarbon.com/website/burak-mulayim-app/">
-								0.009g of CO2/view, this request failed {error.message}</a
-							>
-						{/await}
+						<a target="_blank" href="https://www.websitecarbon.com/website/burak-mulayim-app/">
+							{carbon.statistics.co2.grid.grams.toFixed(3)}g of CO2/view</a
+						>
 					</Alert.Description>
 				</div>
 			</div>
